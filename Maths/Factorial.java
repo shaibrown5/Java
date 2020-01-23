@@ -17,7 +17,7 @@ public class Factorial {
      */
     public static long factorial(int n) {
         if (n < 0) {
-            throw new ArithmeticException("n < 0");     //Dont work with less than 0
+            throw new ArithmeticException("n < 0");     //Doesnt work with a negative number
         }
         long fac = 1;
         for (int i = 1; i <= n; ++i) {
